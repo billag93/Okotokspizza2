@@ -1,0 +1,12 @@
+@mixin Bigger-text-animation($large){
+    transition: ease-in-out;
+    transition-duration: 1s;
+    widows: $large;
+}
+
+@mixin black-button(){
+    background-color: black;
+    color: whitesmoke;
+    animation: ease-in-out;
+    animation-duration: 2s;
+}

@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #EEF30C;
+}
+
+#grid-container {
+  display: -ms-grid;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F3110C;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#grid-container #header {
+  color: white;
+  border: orange;
+  border-style: solid;
+  -webkit-box-shadow: 5px 10px black;
+          box-shadow: 5px 10px black;
+  background-color: #F3850C;
+}
+
+#grid-container #header #main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding: 20px 0px;
+  font-size: 14px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#grid-container #header #main-nav .Logo {
+  width: 100px;
+}
+
+#grid-container #header #main-nav #main-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 80px;
+}
+
+#grid-container #header #main-nav #main-menu li {
+  padding: 0px 10px;
+}
+
+#grid-container #header #main-nav a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F3110C;
+}
+
+#grid-container #header #main-nav a:hover {
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  widows: 18px;
+}
+
+#grid-container #order-now {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  background-image: url(https://img.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg?size=626&ext=jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 12px;
+  z-index: -0.5;
+  -webkit-box-shadow: 5px 10px black;
+          box-shadow: 5px 10px black;
+}
+
+#grid-container #order-now ul {
+  position: absolute;
+}
+
+#grid-container #order-now ul .Order-Now1 {
+  text-align: center;
+  border: 1px solid #F3850C;
+  background: #fff;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  left: 800px;
+  top: 100px;
+  border-radius: 15%;
+}
+
+#grid-container #order-now ul .Order-Now1:hover {
+  color: #fff;
+  background: #F3850C;
+}
+
+#grid-container #intro-video {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
+  max-width: 90%;
+  margin-top: 12px;
+}
+
+#grid-container #specialty {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 8px;
+}
+
+#grid-container #specialty p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4em;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 30vh;
+  margin: 5% 0%;
+  padding: 4%;
+}
+
+#grid-container #specialty img {
+  border: solid;
+  border-color: #F3850C;
+  border-style: solid;
+  border-radius: 10%;
+  -webkit-box-shadow: 5px 10px black;
+          box-shadow: 5px 10px black;
+}
+
+#grid-container #family-fun {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 2fr;
+      grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 8px;
+}
+
+#grid-container #family-fun img {
+  border: solid;
+  border-color: #F3850C;
+  border-style: solid;
+  border-radius: 10%;
+  -webkit-box-shadow: 5px 10px black;
+          box-shadow: 5px 10px black;
+  width: 30vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  position: relative;
+  margin: 1%;
+  top: 20vh;
+}
+
+#grid-container #family-fun p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4em;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 1% 0%;
+  padding: 4%;
+}
+
+#grid-container #Community {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#grid-container #Community p {
+  background-color: #fff;
+  border: 4px solid #F3850C;
+  border-radius: 10%;
+  -webkit-box-shadow: 5px 10px black;
+          box-shadow: 5px 10px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  max-width: 100;
+}
+
+#grid-container #Community p:hover {
+  color: #fff;
+  background: #F3850C;
+}
+
+#grid-container #footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F3850C;
+  width: 100%;
+  height: 40vh;
+}
+
+#grid-container #footer #footerlinks {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  row-gap: 2%;
+  text-decoration: none;
+  color: #F3110C;
+  list-style: none;
+}
+
+#grid-container #footer #footerlinks #footerlinks:hover {
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  widows: 16px;
+}
+
+#grid-container #footer img {
+  width: 20vw;
+}
+
+#grid-container #footer #socialmedia {
+  text-decoration: none;
+  color: #F3110C;
+  list-style: none;
+}
+
+#grid-container #footer #socialmedia #socialmedia:hover {
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  widows: 16px;
+}
+/*# sourceMappingURL=style.css.map */
